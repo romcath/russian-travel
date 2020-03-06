@@ -1,0 +1,10 @@
+.page__partition {
+  max-width: 985px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__partition {
+    width: 90%;
+  }
+}

@@ -1,0 +1,34 @@
+.content-title {
+  max-width: 800px;
+  margin: 0 auto 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 78px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .content-title {
+    line-height: 65px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-title {
+    width: 80%;
+    font-size: 42px;
+    line-height: 46px;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content-title {
+    font-size: 32px;
+    line-height: 35px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}

@@ -1,0 +1,26 @@
+@import url('../cover/__cover-bg/cover__cover-bg.css');
+@import url('../cover/__title/cover__title.css');
+@import url('../cover/__subtitle/cover__subtitle.css');
+@import url('../cover/__link/cover__link.css');
+
+.cover {
+    position: relative;
+    padding: 0;
+    margin-top: 102px;
+}
+
+.cover:hover .cover__cover-bg {
+  opacity: .2;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) and (min-width: 375px) {
+  .cover {
+    padding-top: 48px;
+  }
+}

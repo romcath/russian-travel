@@ -1,0 +1,10 @@
+@import url('./__logo/header__logo.css');
+@import url('./__lang/header__lang.css');
+@import url('./__link/header__link.css');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 0;
+}

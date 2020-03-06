@@ -1,0 +1,8 @@
+.video__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
