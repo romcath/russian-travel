@@ -2,6 +2,10 @@
   margin-bottom: 75px;
 }
 
+.page__place:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 600px) {
   .page__place {
     margin-bottom: 48px;

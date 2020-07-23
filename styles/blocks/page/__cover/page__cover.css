@@ -18,7 +18,13 @@
 
 @media screen and (max-width: 425px) and (min-width: 375px) {
   .page__cover {
-    padding-top: 48px;
+    margin-top: 48px;
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .page__cover {
+    margin-top: 64px;
   }
 }
