@@ -4,6 +4,12 @@
   max-width: 1184px;
 }
 
+@media screen and (max-width: 1280px) {
+  .page__cover {
+    width: 95%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .page__cover {
     width: 90%;
@@ -13,5 +19,6 @@
 @media screen and (max-width: 425px) and (min-width: 375px) {
   .page__cover {
     padding-top: 48px;
+    width: 90%;
   }
 }

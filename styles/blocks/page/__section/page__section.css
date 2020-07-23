@@ -4,6 +4,12 @@
   margin: auto;
 }
 
+@media screen and (max-width: 1280px) {
+  .page__section {
+    width: 95%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .page__section {
     width: 90%;
