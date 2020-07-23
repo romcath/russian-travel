@@ -1,31 +1,15 @@
 .footer__link {
-  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 41px;
   color: #fff;
   text-decoration: none;
-  margin-right: 18px;
-}
-
-.footer__link:last-child {
-  margin-right: 0;
 }
 
 @media screen and (max-width: 768px) and (min-width: 425px) {
   .footer__link {
     font-size: 16px;
     line-height: 27px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .footer__link {
-    margin: 0 0 32px;
-  }
-
-  .footer__link:last-child {
-    margin: 0;
   }
 }

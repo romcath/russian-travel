@@ -1,0 +1,15 @@
+.page__content-title {
+  margin: 0 auto 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .page__content-title {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page__content-title {
+    margin-bottom: 16px;
+  }
+}

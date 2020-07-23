@@ -5,8 +5,6 @@
 
 .cover {
     position: relative;
-    padding: 0;
-    margin-top: 102px;
 }
 
 .cover:hover .cover__cover-bg {

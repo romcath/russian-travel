@@ -74,7 +74,7 @@
           <img src="images/ergaki.jpg" alt="Фото #12" class="photo-grid__item">
         </section>
         <section class="places page__partition">
-          <div class="place">
+          <div class="place page__place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
               <p class="place__url-heading">Url</p>
@@ -91,7 +91,7 @@
                 спокойствие природы и запах стального, прохладного моря.</p>
             </div>
           </div>
-          <div class="place">
+          <div class="place page__place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
               <p class="place__url-heading">Url</p>
@@ -108,7 +108,7 @@
                 билетом в Мурманск.</p>
             </div>
           </div>
-          <div class="place">
+          <div class="place page__place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
               <p class="place__url-heading">Url</p>
@@ -124,7 +124,7 @@
                 а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
             </div>
           </div>
-          <div class="place">
+          <div class="place page__place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
               <p class="place__url-heading">Url</p>
@@ -140,7 +140,7 @@
                 поставлен мировой рекорд — 197.011 км/ч.</p>
             </div>
           </div>
-          <div class="place">
+          <div class="place page__place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
               <p class="place__url-heading">Url</p>
@@ -155,8 +155,8 @@
           </div>
         </section>
         <section class="video page__section">
-          <h2 class="content-title">В глубины Земли и в дальний космос</h2>
-          <p class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
+          <h2 class="content-title page__content-title">В глубины Земли и в дальний космос</h2>
+          <p class="content-subtitle page__content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
           <div class="video__container">
             <div class="video__item">
               <a href="https://vimeo.com/81106671" target="_blank" class="video__link">
@@ -183,45 +183,57 @@
           </div>
         </section>
         <section class="comments page__section">
-          <h2 class="content-title">Фотографы, снимающие Россию</h2>
-          <p class="content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
+          <h2 class="content-title page__content-title">Фотографы, снимающие Россию</h2>
+          <p class="content-subtitle page__content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
           <div class="comments__container">
             <div class="comments__comment">
-              <img src="images/lyagushkin.jpg" alt="Лягушкин" class="comments__image">
-              <p class="comments__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</p>
+              <img src="images/lyagushkin.jpg" alt="Виктор Лягушкин" class="comments__image">
+              <blockquote class="comments__quote" cite="Виктор Лягушкин">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</blockquote>
               <p class="comments__author">Виктор Лягушкин</p>
             </div>
             <div class="comments__comment">
-              <img src="images/hafizov.jpg" alt="Хафизов" class="comments__image">
-              <p class="comments__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину
-                Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</p>
+              <img src="images/hafizov.jpg" alt="Иван Хафизов" class="comments__image">
+              <blockquote class="comments__quote" cite="Иван Хафизов">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину
+                Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</blockquote>
               <p class="comments__author">Иван Хафизов</p>
             </div>
             <div class="comments__comment">
-              <img src="images/maksimshin.jpg" alt="Максимишин" class="comments__image">
-              <p class="comments__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</p>
+              <img src="images/maksimshin.jpg" alt="Сергей Максимишин" class="comments__image">
+              <blockquote class="comments__quote" cite="Сергей Максимишин">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</blockquote>
               <p class="comments__author">Сергей Максимишин</p>
             </div>
           </div>
         </section>
-        <section class="cover page__section">
+        <section class="cover page__cover">
           <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
             <div class="cover__cover-bg"></div>
             <h2 class="cover__title">До Байкала «на собаках»</h2>
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
           </a>
         </section>
-        <footer class="footer page__section">
-          <div class="footer__menu">
-            <a href="https://yandex.ru/maps" target="_blank" class="footer__link page__link">Карты</a>
-            <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link page__link">Погода</a>
-            <a href="https://rasp.yandex.ru/" target="_blank" class="footer__link page__link">Расписание</a>
-            <a href="https://calendar.yandex.ru/" target="_blank" class="footer__link page__link">Календарь</a>
-            <a href="https://travel.yandex.ru/" target="_blank" class="footer__link page__link">Путешествие</a>
-          </div>
-          <p class="footer__copyright">© 2019. Катя Ромашкина</p>
-        </footer>
       </main>
+      <footer class="footer page__footer">
+        <nav class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <a href="https://yandex.ru/maps" target="_blank" class="footer__link page__link">Карты</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link page__link">Погода</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="https://rasp.yandex.ru/" target="_blank" class="footer__link page__link">Расписание</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="https://calendar.yandex.ru/" target="_blank" class="footer__link page__link">Календарь</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="https://travel.yandex.ru/" target="_blank" class="footer__link page__link">Путешествие</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="footer__copyright">&copy; 2020. Катя Ромашкина</p>
+      </footer>
     </div>
   </div>
 </body>
