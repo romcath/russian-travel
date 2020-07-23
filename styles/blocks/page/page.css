@@ -1,10 +1,11 @@
+@import url('./__header/page__header.css');
 @import url('./__section/page__section.css');
 @import url('./__link/page__link.css');
 @import url('./__partition/page__partition.css');
 
 .page {
   max-width: 1440px;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -12,7 +13,4 @@
   -moz-text-size-adjust: 100%;
   background-color: #2a2c2f;
   color: #fff;
-  margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 48px;
 }

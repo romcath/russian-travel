@@ -11,21 +11,27 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="page">
-      <header class="header page__section">
+    <div class="page wrapper__page">
+      <header class="header page__header">
         <a href="#">
           <img src="images/logo.svg" alt="Логотип" class="header__logo">
         </a>
         <nav class="header__lang">
-          <a href="#" class="header__link header__link_active page__link">Ru</a>
-          <a href="#" class="header__link page__link">En</a>
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#" class="header__link header__link_active page__link">Ru</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link page__link">En</a>
+            </li>
+          </ul>
         </nav>
       </header>
       <main class="content">
         <section class="lead page__partition">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-          <div class="lead__image"></div>
+          <img src="images/polka.jpg" alt="Верхняя полка" class="lead__image">
           <p class="lead__caption">Ваша полка — верхняя</p>
         </section>
         <section class="intro page__partition">
