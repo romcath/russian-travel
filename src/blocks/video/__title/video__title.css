@@ -1,10 +1,18 @@
 .video__title {
-  width: 70%;
+  width: 65%;
   margin: 10px 0;
   font-style: normal;
   font-weight: 900;
   font-size: 36px;
   line-height: 39px;
+  margin: 8px 0;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__title {
+    width: 75%;
+  }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 767px) {

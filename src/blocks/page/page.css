@@ -1,13 +1,3 @@
-@import url('./__header/page__header.css');
-@import url('./__section/page__section.css');
-@import url('./__link/page__link.css');
-@import url('./__partition/page__partition.css');
-@import url('./__place/page__place.css');
-@import url('./__content-title/page__content-title.css');
-@import url('./__content-subtitle/page__content-subtitle.css');
-@import url('./__cover/page__cover.css');
-@import url('./__footer/page__footer.css');
-
 .page {
   max-width: 1440px;
   font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
