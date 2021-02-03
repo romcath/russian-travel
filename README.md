@@ -8,6 +8,8 @@
 ## Демо
 [https://romcath.github.io/russian-travel](https://romcath.github.io/russian-travel)
 
+![alt-текст](https://github.com/romcath/russian-travel/blob/master/src/images/demo.jpg "Путешествия по России")
+
 ## Установка проекта
 #### Клонируйте репозиторий
 
